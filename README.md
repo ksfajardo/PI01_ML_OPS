@@ -132,7 +132,7 @@ If you would like to see the video of me giving an overview of this project, cli
 
 ## Acknowledgment
 
-Here is some people I would like to thank for their continuous support during the development of this project: </br>
+Here are a few people I would like to thank for their unwavering support throughout the development of this project: </br>
 
 First, to my beloved Full-Stack Developer boyfriend, William, who talked me out of using Render for my API and told me to go for something more challenging: Thank you, you were right. Docker and Google Cloud are indeed the GOAT. </br>
 
