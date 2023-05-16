@@ -76,7 +76,7 @@ The ETL process was performed on the given dataset to prepare it for analysis an
 All of this was developed locally in VSCODE using Jupyter Notebook, python, numpy and pandas.
 
 ## EDA
-The resulting data from the ETL was used to conduct the Exploratory Data Analysis. All of the columns were analyzed with the help of the ydata_profiling library. Decisions like what to do with missing values, outliers and more were taken. Identifying patterns and relevant attributes was a vital step in setting the foundation for the subsequent development of the API Functions and the Recommendation System.
+The resulting data from the ETL was used to conduct the Exploratory Data Analysis. All of the columns were analyzed with the help of the ydata_profiling library tool ProfileReport. Decisions like what to do with missing values, outliers and more were taken. Identifying patterns and relevant attributes was a vital step in setting the foundation for the subsequent development of the API Functions and the Recommendation System.
 
 All of this was developed locally in VSCODE using Jupyter Notebook, python, numpy, pandas, matplotlib, seaborn, wordcolud and ydata_profiling.
 
@@ -99,10 +99,39 @@ Next, on Google Cloud, a Cloud Run service was created with the link given by Do
 PD: It is worth mentioning that even with all of this resources the service was unable to run the recommendation algorithm using the full dataset (the similarity matrix of the full dataset alone weighs almost 15GB). Even though I could have allocated even more resources to the API so that it runs in its full dataset glory, I did not because that would have meant having to search for a server (in all of the possible regions that Google Cloud has, which are A LOT) that could host it, because every region has a different limit of resources allowed per user. So, instead I decided to use a sample of the dataset (half its size to be precise) and deploy the API with it. You can find this part in the last section of the Jupyter Notebook where the recommedation system was developed ([here](https://github.com/ksfajardo/PI01_ML_OPS/blob/main/MLmodel.ipynb)).
 
 ## Developer
+<div align="center">
+Only me this time :) 
+ 
+| [<img src="https://avatars.githubusercontent.com/u/104804355?s=400&u=7c7592e2239f0ef414c4a3c5a61920ab19c9d980&v=4" width=115><br><sub>Karla Fajardo</sub>](https://github.com/ksfajardo) |
+| :---: | 
 
+Here is my Linkedin if you would like to get in contact with me: </br>
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karla-fajardo-3b3020175/)
+
+</div>
 
 ## Video
+If you would like to see the video of me giving an overview of this project, click on the YouTube logo below:
 
-## Acknowledgments
+<div align="center">
+  
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
+  
+</div>
 
+## Acknowledgment
 
+Here is some people I would like to thank for their continuous support during the development of this project: </br>
+
+First, to my beloved Full-Stack Developer boyfriend, William, who talked me out of using Render for my API and told me to go for something more challenging: Thank you, you were right. Docker and Google Cloud are indeed the GOAT. </br>
+
+Second, to my favorite artist, Taylor Swift: thank you for meeting me at midnight during every single day I spent developing this porject and keeping me company with your music while everybody else in my house slept. </br>
+
+And last but not least, to my amazing friends and classmates at Henry: Here is to helping and lifting each other up whenever we need it! I had the most fun helping you get to the finish line with me.
+
+<div align="center">
+
+![wink](https://github.com/ksfajardo/PI01_ML_OPS/blob/main/taylor.gif)
+
+</div>
