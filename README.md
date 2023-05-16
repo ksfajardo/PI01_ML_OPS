@@ -120,6 +120,8 @@ If you would like to see the video of me giving an overview of this project, cli
   
 </div>
 
+(In the video I talk in spanish)
+
 ## Acknowledgment
 
 Here is some people I would like to thank for their continuous support during the development of this project: </br>
@@ -128,7 +130,7 @@ First, to my beloved Full-Stack Developer boyfriend, William, who talked me out 
 
 Second, to my favorite artist, Taylor Swift: thank you for meeting me at midnight during every single day I spent developing this porject and keeping me company with your music while everybody else in my house slept. </br>
 
-And last but not least, to my amazing friends and classmates at Henry: Here is to helping and lifting each other up whenever we need it! I had the most fun helping you get to the finish line with me.
+And last but not least, to the amazing friends I have made at Henry: Here is to helping and lifting each other up whenever we need it! I had the most fun helping you get to the finish line with me.
 
 <div align="center">
 
